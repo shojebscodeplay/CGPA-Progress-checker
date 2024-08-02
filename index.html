@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Progress Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="banner">
+        
+    <h1>Shojeb's Progress Checker Website</h1>
+    <p class="gpa-info">My first Semester GPA: 2.79 | Last Semester GPA: 3.49 | Progress: 25.1%</p>
+
+</header>
+
+    <div class="container">
+
+        <h1>Check Your Progress</h1>
+
+        <form id="gpaForm">
+            <div id="semesterInputs">
+                <div class="form-group" id="sem1-group">
+                    <label for="sem1">1st Semester GPA:</label>
+                    <input type="number" step="0.01" id="sem1" class="semester" required>
+                </div>
+                <div class="form-group" id="sem2-group">
+                    <label for="sem2">2nd Semester GPA:</label>
+                    <input type="number" step="0.01" id="sem2" class="semester" required>
+                    <button type="button" class="deleteSemester" onclick="deleteSemester('sem2-group')">Delete</button>
+
+                </div>
+
+            </div>
+            <div class="button-container">
+                <button id="addSemester">Add Semester</button>
+                <button id="calculateProgress">Calculate Progress</button>
+            </div>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

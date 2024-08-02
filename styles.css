@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    margin-top: 20px;
+}
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease-in-out; /* Smooth transition for scaling effect */
+    align-items: center; /* Center-align buttons horizontally */
+
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slightly increase the size of the banner */
+
+}
+
+.deleteSemester {
+    background-color: #dc3545;
+    margin-left: 10px;
+    transition: transform 0.2s ease-in-out; /* Smooth transition for scaling effect */
+
+}
+
+.deleteSemester:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+    transform: scale(1.10); /* Slightly increase the size of the banner */
+
+}
+
+#result, #example {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #9fef0a;
+    border: 5px solid #ced4da;
+}
+
+/* Banner styling */
+.banner {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.5s ease-in-out; /* Smooth transition for scaling effect */
+
+}
+.banner:hover {
+    transform: scale(1.10); /* Slightly increase the size of the banner */
+}
+.banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.banner .gpa-info {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    color: #f0f0f0; /* Slightly lighter color for the additional info */
+}
