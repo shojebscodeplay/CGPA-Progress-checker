@@ -3,7 +3,7 @@
 ## Overview
 
 The Student Progress Checker is a web application that allows students to track and calculate their academic progress based on their GPA for various semesters. Users can input their GPA for multiple semesters, add or delete semesters, and calculate the progress between semesters.
-![Uploading Screenshot (461).png…]()
+![Screenshot (461)](https://github.com/user-attachments/assets/fad54d19-dfca-44f0-bb1b-e16e637112aa)
 
 ## Features
 
